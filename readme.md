@@ -13,7 +13,7 @@ ROS en su versión noetic, verifica los siguientes pre-requisitos, en lo contrar
 - Pangolin
 - ROS: Noetic
 
-# 2. Pruebas con conjunto de datos para validar su funcionamiento.
+# 2. Pruebas en conjunto de datos para validar su funcionamiento.
 2.1 Descargar conjuntos de datos de prueba
 - EuRoC dataset recogidos a bordo de un Micro Vehículo Aéreo (MAV). Los conjuntos de datos contienen imágenes estéreo, mediciones IMU sinterreno. Descargar una secuencia (formato ASL) desde [Aqui](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) y descomprima.
 - TUM-VI dataset proporciona imagenes con resolución de 1024x1024 a 20 Hz y datos precisos de movimiento y estructura sobre el tró con dos cámaras ojo de pez y un sensor inercial. Descargar una secuencia desde [Aqui](https://cvg.cit.tum.de/data/datasets/visual-inertial-dataset) y descomprimela.
