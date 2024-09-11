@@ -53,7 +53,7 @@ Modos principales a ejecutar:
 ```
 # 4. Calibración de Webcam 
 # 5. Procesando secuencias personalizadas
-# 6. Integración como nodo de ORB_SLAM3 en ROS
+# 6. Integración de ORB_SLAM3 como nodo en ROS
 El [repositorio](https://github.com/aliaxam153/ORB_SLAM3?tab=readme-ov-file), contiene un script
 que instala los nodos para su incorporación con ROS.
 3.1 Instalación
