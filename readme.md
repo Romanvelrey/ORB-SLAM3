@@ -52,6 +52,14 @@ Modos principales a ejecutar:
 ./Examples/Monocular/mono_tum ./Vocabulary/ORBvoc.txt ./Examples/Monocular/TUM1.yaml ~/datasets/rgbd_dataset_freiburg1_xyz/
 ```
 # 4. Calibración de Webcam 
+Para WEBCAM
+
+(La metodología se puede implementar para cualquier dispositivo que utilice una cámara monocular).
+**4.1 Verificar detección del dispositivo o webcam:**
+**4.1.1** Conecta la webcam al puerto USB. Como primera revisión, abre la terminal y ejecuta el comando Cheese, que es un software de Ubuntu para tomar fotografías y videos:
+``` python
+Cheese
+```
 # 5. Procesando secuencias personalizadas
 # 6. Integración de ORB_SLAM3 como nodo en ROS
 El [repositorio](https://github.com/aliaxam153/ORB_SLAM3?tab=readme-ov-file), contiene un script
