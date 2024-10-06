@@ -51,17 +51,19 @@ Modos principales a ejecutar:
 ``` python
 ./Examples/Monocular/mono_tum ./Vocabulary/ORBvoc.txt ./Examples/Monocular/TUM1.yaml ~/datasets/rgbd_dataset_freiburg1_xyz/
 ```
-# 4. Calibración de Webcam 
-Para WEBCAM
 
-(La metodología se puede implementar para cualquier dispositivo que utilice una cámara monocular).
-**4.1 Verificar detección del dispositivo o webcam:**
-**4.1.1** Conecta la webcam al puerto USB. Como primera revisión, abre la terminal y ejecuta el comando Cheese, que es un software de Ubuntu para tomar fotografías y videos:
-``` python
-Cheese
-```
-# 5. Procesando secuencias personalizadas
-# 6. Integración de ORB_SLAM3 como nodo en ROS
+# 4. Calibración de Webcam 
+# 5. Calibración de Webcam 
+Documentación teórica y métodología de la obtención de los parámetros extrínsecos e intrı́nsecos del archivo .yaml para su enfoque
+e implementación en ORB-SLAM3.
+Documentación:
+Video calibración Webcam (Método por ROS):
+Video calibración Drone DJI Tello Ryze (Método por Matlab):
+
+# 6. Procesando secuencias personalizadas con Drone DJI Tello Ryze**
+Video explicación:
+
+# 7. Integración de ORB_SLAM3 como nodo en ROS
 El [repositorio](https://github.com/aliaxam153/ORB_SLAM3?tab=readme-ov-file), contiene un script
 que instala los nodos para su incorporación con ROS.
 3.1 Instalación
@@ -86,37 +88,7 @@ Terminal 3:
 cd ~/dev/ORB_SLAM3/
 rosrun ORB_SLAM3 Stereo_Inertial ~/dev/ORB_SLAM3/Vocabulary/ORBvoc.txt ~/dev/ORB_SLAM3/Examples/Stereo-Inertial/EuRoC.yaml true
 ```
-# 7. Evaluación en tiempo real con Webcam y ROS
-7.1 Ir a la siguiente dirección:
-``` python
-cd ~/dev/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc
-```
-7.2 Remplazar
-``` python
-    ros::Subscriber sub = nodeHandler.subscribe("/camera/image_raw", 1, ...
- ```
-con
-``` python
-    ros::Subscriber sub = nodeHandler.subscribe("/usb_cam/image_raw", 1, ...
- ```
-7.3 Actualizar el paquete
-``` python
-#Ir a la carpeta build
-cd ~/dev/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build
-make
- ```
-7.4 Ejecución
-Abrir 3 terminales 
-Terminal 1: Inicializar ROS
-``` python
-roscore
-```
-Terminal 2: Launch del nodo ros_webcam
-``` python
-roslaunch usb_cam usb_cam-test.launch
-```
-Terminal 3: Espere hasta que inicialice la cámara y transmita su imagen en la pantalla, luego ejecute ORB_SLAM3 con ROS (cambiar archivo .yaml con los de la webcam):
-``` python
-cd ~/dev/ORB_SLAM3/
-rosrun ORB_SLAM3 Mono Vocabulary/ORBvoc.txt Examples/Monocular/EuRoC.yaml
-```
+# 8. Evaluación en tiempo real de Webcam con ROS
+Video de calibración e implementación: 
+
+# 9. Evaluación en tiempo real del Drone DJI Tello con ROS
