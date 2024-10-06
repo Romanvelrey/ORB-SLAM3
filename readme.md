@@ -55,7 +55,7 @@ Modos principales a ejecutar:
 ```
 # 4. Operar el Dron Tello DJI con Keyboard/mando de xbox s
 Documentación y métodología:
-# 5. Calibración de Webcam 
+# 5. Calibración Visual 
 Documentación teórica y métodología de la obtención de los parámetros extrínsecos e intrı́nsecos del archivo .yaml para su enfoque
 e implementación en ORB-SLAM3.
 
