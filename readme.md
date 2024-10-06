@@ -61,11 +61,11 @@ e implementación en ORB-SLAM3.
 
 [Documentación](Calibración-Visual.pdf)
 
-Video [calibración Webcam (Método por ROS)](https://youtu.be/NlUDHPffjvc)
+Video [calibración Webcam (Método por ROS)](https://youtu.be/CwaFwtEkfDs)
 
-Video [calibración Drone DJI Tello Ryze (Método por Matlab)](https://youtu.be/nONeCOJR0nE)
+Video [calibración Drone DJI Tello Ryze (Método por Matlab)](https://youtu.be/oaTrxvDIrXQ)
 
-# 6. Procesando secuencias personalizadas con Drone DJI Tello Ryze**
+# 6. Procesando secuencias personalizadas con Drone DJI Tello Ryze
 Video [Evaluación del algoritmo en cámara monocular de Drone DJI Tello Ryze en un entorno interior.](https://youtu.be/itlC6GhlaIY)
 
 # 7. Integración de ORB_SLAM3 como nodo en ROS
