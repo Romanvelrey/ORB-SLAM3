@@ -51,8 +51,8 @@ Modos principales a ejecutar:
 ``` python
 ./Examples/Monocular/mono_tum ./Vocabulary/ORBvoc.txt ./Examples/Monocular/TUM1.yaml ~/datasets/rgbd_dataset_freiburg1_xyz/
 ```
-
-# 4. Calibración de Webcam 
+# 4. Operar el Dron Tello DJI con Keyboard/mando de xbox s
+Documentación y métodología:
 # 5. Calibración de Webcam 
 Documentación teórica y métodología de la obtención de los parámetros extrínsecos e intrı́nsecos del archivo .yaml para su enfoque
 e implementación en ORB-SLAM3.
