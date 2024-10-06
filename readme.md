@@ -53,7 +53,8 @@ Modos principales a ejecutar:
 ``` python
 ./Examples/Monocular/mono_tum ./Vocabulary/ORBvoc.txt ./Examples/Monocular/TUM1.yaml ~/datasets/rgbd_dataset_freiburg1_xyz/
 ```
-# 4. Operar el Dron Tello DJI con Keyboard/mando de xbox s
+# 4. Operar el Dron Tello DJI con Keyboard/mando de xbox one s
+Este proyecto se basa en la implementación de un nodo de teleoperación que permite controlar un drone Tello utilizando el teclado de un computador o un mando de xbox one s. 
 Documentación y métodología:
 # 5. Calibración Visual 
 Documentación teórica y métodología de la obtención de los parámetros extrínsecos e intrı́nsecos del archivo .yaml para su enfoque
