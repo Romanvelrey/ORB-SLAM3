@@ -58,8 +58,11 @@ Documentación y métodología:
 # 5. Calibración de Webcam 
 Documentación teórica y métodología de la obtención de los parámetros extrínsecos e intrı́nsecos del archivo .yaml para su enfoque
 e implementación en ORB-SLAM3.
+
 Documentación:
+
 Video calibración Webcam (Método por ROS):
+
 Video calibración Drone DJI Tello Ryze (Método por Matlab):
 
 # 6. Procesando secuencias personalizadas con Drone DJI Tello Ryze**
