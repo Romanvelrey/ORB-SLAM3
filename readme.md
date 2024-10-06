@@ -56,7 +56,7 @@ Modos principales a ejecutar:
 # 4. Operar el Dron Tello DJI con Keyboard/mando de xbox one s
 Este proyecto se basa en la implementación de un nodo de teleoperación que permite controlar un drone Tello utilizando el teclado de un computador o un mando de xbox one s. 
 
-[Documentación] (Operar-Drone-KB-XOs.pdf)
+[Documentación](Operar-Drone-KB-XOs.pdf)
 # 5. Calibración Visual 
 Documentación teórica y métodología de la obtención de los parámetros extrínsecos e intrı́nsecos del archivo .yaml para su enfoque
 e implementación en ORB-SLAM3.
