@@ -59,7 +59,7 @@ Documentación y métodología:
 Documentación teórica y métodología de la obtención de los parámetros extrínsecos e intrı́nsecos del archivo .yaml para su enfoque
 e implementación en ORB-SLAM3.
 
-Documentación:
+[Documentación](Calibración-Visual.pdf)
 
 Video calibración Webcam (Método por ROS):
 
