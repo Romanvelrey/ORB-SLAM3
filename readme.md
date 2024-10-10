@@ -96,3 +96,4 @@ cd ~/dev/ORB_SLAM3/
 rosrun ORB_SLAM3 Stereo_Inertial ~/dev/ORB_SLAM3/Vocabulary/ORBvoc.txt ~/dev/ORB_SLAM3/Examples/Stereo-Inertial/EuRoC.yaml true
 ```
 # 10. Evaluación en tiempo real del Drone DJI Tello con ROS
+[video](https://youtu.be/nL-m96cTEJc)
