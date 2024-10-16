@@ -3,6 +3,8 @@ El objetivo de este repositorio es explicar los pasos a realizar para que el dro
 implementando la biblioteca de ORB-SLAM3 para que pueda crear un mapa de nube de puntos en distintos
 entornos desconocidos, apartir de la información de la cámara monocular que incorpora.
 
+[![1.png](https://i.postimg.cc/9RJSZMMS/1.png)](https://postimg.cc/9RJSZMMS)
+
 Documentación sobre hardware y software del [Drone DJI Tello Ryze](Drone-DJI-Tello-Ryze.pdf).
 # 1. Instalación de ORB-SLAM3. 
 El repositorio y los pasos utilizados, basado en la biblioteca oficial de GitHub para 
