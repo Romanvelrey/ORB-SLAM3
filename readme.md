@@ -6,7 +6,6 @@ entornos desconocidos, apartir de la información de la cámara monocular que in
 Documentación sobre hardware y software del [Drone DJI Tello Ryze](Drone-DJI-Tello-Ryze.pdf).
 ![](Imagenes/1.png)
 ![](Imagenes/2.png)
-![](Imagenes/3.png)
 # 1. Instalación de ORB-SLAM3. 
 El repositorio y los pasos utilizados, basado en la biblioteca oficial de GitHub para 
 [ORB-SLAM3](https://github.com/aliaxam153/ORB_SLAM3?tab=readme-ov-file).
@@ -21,8 +20,11 @@ ROS en su versión noetic, verifica los siguientes pre-requisitos, en lo contrar
 # 2. Pruebas en conjunto de datos para validar su funcionamiento.
 2.1 Descargar conjuntos de datos de prueba
 - EuRoC dataset recogidos a bordo de un Micro Vehículo Aéreo (MAV). Los conjuntos de datos contienen imágenes estéreo, mediciones IMU sinterreno. Descargar una secuencia (formato ASL) desde [Aqui](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) y descomprima.
+- Ver [video de prueba](https://youtu.be/V7T5O8ly9Fk)
 - TUM-VI dataset proporciona imagenes con resolución de 1024x1024 a 20 Hz y datos precisos de movimiento y estructura sobre el tró con dos cámaras ojo de pez y un sensor inercial. Descargar una secuencia desde [Aqui](https://cvg.cit.tum.de/data/datasets/visual-inertial-dataset) y descomprimela.
+- Ver [video de prueba](https://youtu.be/d6zgKbzEUMg)
 - KITTI dataset: Incluye una variedad de datos capturados en el tráfico real, specialmente en el contexto de vehículos autónomos. Descargar una secuencia desde [Aqui](https://www.cvlibs.net/datasets/kitti/eval_odometry.php) y descomprimela.
+- - Ver [video de prueba](https://youtu.be/9_AHEYWJesE)
 
 2.2 Estructura para ejecutar ORB-SLAM en EuRoC:
 ``` python
@@ -56,6 +58,8 @@ Modos principales a ejecutar:
 ``` python
 ./Examples/Monocular/mono_tum ./Vocabulary/ORBvoc.txt ./Examples/Monocular/TUM1.yaml ~/datasets/rgbd_dataset_freiburg1_xyz/
 ```
+![](Imagenes/3.png)
+
 # 4. Operar el Dron Tello DJI con Keyboard/mando de xbox one s
 Este proyecto se basa en la implementación de un nodo de teleoperación que permite controlar un drone Tello utilizando el teclado de un computador o un mando de xbox one s. 
 
@@ -75,7 +79,8 @@ Video [Evaluación del algoritmo en cámara monocular de Drone DJI Tello Ryze en
 
 # 7. Integración de ORB_SLAM3 como nodo en ROS
 El [repositorio](https://github.com/aliaxam153/ORB_SLAM3?tab=readme-ov-file), contiene un script
-que instala los nodos para su incorporación con ROS.
+que instala los nodos para su incorporación con ROS. 
+
 3.1 Instalación
 ``` python
 chmod +x build_ros.sh
@@ -100,3 +105,5 @@ rosrun ORB_SLAM3 Stereo_Inertial ~/dev/ORB_SLAM3/Vocabulary/ORBvoc.txt ~/dev/ORB
 ```
 # 10. Evaluación en tiempo real del Drone DJI Tello con ROS
 [video](https://youtu.be/nL-m96cTEJc)
+# 11. Integración con OMPL
+[video](https://youtu.be/nGDqc4TUCUM)
